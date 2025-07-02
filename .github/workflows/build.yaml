@@ -26,5 +26,5 @@ jobs:
           context: ./
           push: true
           tags: |
-                hdulaj/docker-automation:${{ env.SHORT_SHA }}
-                hdulaj/docker-automation:latest
+               hdulaj/docker-automation:${{ env.SHORT_SHA }}
+               hdulaj/docker-automation:latest
